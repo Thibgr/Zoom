@@ -1,0 +1,439 @@
+body{
+    font-family: Roboto;
+}
+
+section {
+    padding: 85px;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+/* NAV */
+
+
+nav{
+    height:80px;
+    background-color: white;
+}
+
+nav>div{
+    height:100%;
+}
+
+nav>div>div{
+    height:100%;
+}
+
+nav ul a{
+    color: #3f4244;
+    text-decoration: none;
+}
+
+nav ul a:hover{
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+    color: #3f4244;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+    margin-top: 80px;
+    padding: 85px;
+    height: calc(100vh - 80px);
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+header>div{
+    height: 100%;
+}
+
+header h2{
+    color: white;
+    font-size: 3em;
+}
+
+header button{
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+    border: none;
+    box-shadow: 0.1em 0.1em 0.5em rgba(63, 66, 68, 0.5);
+}
+
+/*SECTION SERVICE*/
+
+#section_service h3{
+    color: #3f4244;
+    font-size: 1em;
+}
+
+#section_service p{
+    color: #929ba0;
+}
+
+#section_service button {
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+    border: none;
+    box-shadow: 0.1em 0.1em 0.5em rgba(63, 66, 68, 0.5);
+}
+
+
+/*SECTION DESIGN YES*/
+
+#section_yes_design {
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+}
+
+#section_yes_design h2{
+    color: #FFF;
+}
+
+#section_yes_design p {
+    color: #FFF;
+    margin-bottom: 105px;
+}
+
+/*SECTION FULLY RESPONSIVE*/
+
+#section_fully_responsive button {
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+    border: none;
+    box-shadow: 0.1em 0.1em 0.5em rgba(63, 66, 68, 0.5);
+}
+
+#section_fully_responsive h2{
+    color: #3f4244;
+}
+
+#section_fully_responsive p {
+    color: #929ba0;
+}
+
+
+/*SECTION WORK*/
+
+#section_works{
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+#section_works button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    outline:none;
+}
+
+#section_works h2, #section_works p:first-child{
+    color: #FFF;
+}
+
+#section_works p:first-child{
+    margin-bottom: 105px;
+}
+
+#section_works ul li {
+    color: #3f4244;
+}
+
+#section_works ul li:hover {
+    color: #FFF;
+}
+
+#section_works .work-img {
+    height: 200px;
+    width: 100%;
+    background-color: #232e3d;
+}
+
+#section_works .work-desc {
+    width: 100%;
+    background-color: #fff;
+}
+
+#section_works h4 {
+    color: #3f4244;
+    font-size: 1em;
+}
+
+#section_works p {
+    color: #929ba0;
+}
+
+/*SECTION STATS*/
+
+
+#section_stats {
+    background-color: #233537;
+}
+
+#section_stats span {
+    color: #fff;
+    font-size: 2em;
+}
+
+#section_stats p {
+    color: #10cab7;
+}
+
+/*SECTION TEAM*/
+
+#section_team h2 {
+    color: #3f4244;
+}
+
+#section_team p:first-child {
+    color: #929ba0;
+}
+
+
+#section_team .team-picture {
+    height: 200px;
+    width: 100%;
+    background-color: #232e3d;
+}
+
+#section_team .team-desc{
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+#section_team .team-desc h4{
+    color: #3f4244;
+}
+
+#section_team .team-desc h5{
+    color: #fff;
+}
+
+#section_team .team-desc p{
+    color: #3f4244;
+}
+
+/*SECTION YOUR VISION*/
+
+#section_yourvision {
+    color: #fff;
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+}
+
+#section_yourvision button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    font: inherit;
+    line-height: normal;
+    overflow: visible;
+    padding: 0;
+    -webkit-appearance: button; /* for input */
+    -webkit-user-select: none; /* for button */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    outline:none;
+}
+
+#section_yourvision h2 {
+    font-size: 1.3em;
+}
+
+#section_yourvision h3 {
+    font-size: 0.8em;
+}
+
+/*SECTION SUBSCRIBE*/
+
+#section_subscribe {
+    background-color: #233537;
+}
+
+#section_subscribe h2{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#section_subscribe button {
+    border-radius: 0px;
+    font-size: 0.8em;
+    color: #fff;
+    border: 1px solid #10cab7;
+}
+
+#section_subscribe button:hover {
+    background-color: #10cab7;
+}
+
+/*SECTION ABOUT*/
+
+#section_about .about-picture {
+    width: 100%;
+    height: 350px;
+    background-color: #232e3d;
+}
+
+#section_about h3 {
+    color: #3f4244;
+    font-size: 1.3em;
+}
+
+#section_about p{
+    color: #929ba0;
+}
+
+/*SECTION MODERN DESIGN*/
+
+#section_moderndesign{
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+#section_moderndesign img{
+    position: relative;
+    bottom: -50px;
+}
+
+#section_moderndesign h2 {
+    color: #fff;
+}
+
+#section_moderndesign h3{
+    color: #243638;
+    font-size: 1.3em;
+}
+
+#section_moderndesign p {
+    color: #fff;
+}
+
+/*SECTION MODERN DESIGN*/
+
+#section_clients h2 {
+    color: #3f4244;
+    margin-top: 50px;
+}
+
+#section_clients p{
+     color: #929ba0;
+ }
+
+#section_clients .clients-comments {
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+#section_clients h3{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#section_clients h4{
+    color: #243638;
+    font-size: 0.8em;
+}
+
+#section_clients .clients-comments p {
+    color: #fff;
+}
+
+/*SECTION FORM*/
+
+#section_form{
+    background: -webkit-linear-gradient(#ff6c54, #ff3458); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6c54, #ff3458); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6c54, #ff3458); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6c54, #ff3458);
+}
+
+#section_form h2 {
+    color: #fff;
+}
+
+#section_form p {
+    color: #fff;
+}
+
+#section_form input {
+    background: none;
+    color: #fff;
+    outline: 0;
+}
+
+#section_form input::placeholder{
+    color: #fff;
+    outline: none;
+}
+
+#section_form button{
+    background-color: #233537;
+    border:none;
+
+}
+
+/*SECTION CONTACT*/
+
+#section_contact {
+    background-color: #232e3d;
+    color: #fff;
+}
+
+#section_contact .contact-infos{
+    background: -webkit-linear-gradient(#68fac7, #4bdecc); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#68fac7, #4bdecc); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#68fac7, #4bdecc); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#68fac7, #4bdecc);
+}
+
+/*FOOTER*/
+
+footer{
+    height: 80px;
+    background-color: #233537;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #10cab7;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #3f4244;
+}
